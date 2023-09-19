@@ -6,5 +6,31 @@
 	border: 0;
 	font-size: 100%;
     list-style: none;
+	text-decoration: none;
+	color: #000;
 	font-family: 'Roboto Mono', monospace;
+}
+
+header {
+	height: 80px;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+.home-container {
+	height: calc(100vh - 80px);
+	background-color: red;
+}
+
+.projects-container {
+	height: 100vh;
+	background-color: pink;
+}
+
+.contact-container {
+	height: 100vh;
+	background-color: yellow;
 }
