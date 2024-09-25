@@ -12,23 +12,23 @@ export class WorkExperienceComponent {
   workExperience : Array<any> = [];
   ngOnInit() : void {
     let work1 = {
-      fecha: "2018-2022",
-      ubicacion: "Ixtac, Ver.",
-      puesto: "CEO",
-      empresa: "Waves Lab",
+      fecha: "2023-2024",
+      ubicacion: "Córdoba, Ver.",
+      puesto: "Técnico en computación",
+      empresa: "Italy EB",
       logros : [
-        { descripcion : "Construcción de un ERP en GCP" },
-        { descripcion : "Creación de un cluster en hadoop y spark" }
+        { descripcion : "Automatización de procesos" },
+        { descripcion : "Análisis de datos sobre ventas" }
       ]
     };
     let work2 = {
-      fecha: "2014-2018",
-      ubicacion: "Orizaba, Ver.",
-      puesto: "CEO",
-      empresa: "Kubeet",
+      fecha: "2022-2023",
+      ubicacion: "Veracruz, Ver.",
+      puesto: "Auxiliar de sistemas",
+      empresa: "Impresos Servispeed",
       logros : [
-        { descripcion : "Construcción de un invernadero hidroponico" },
-        { descripcion : "Creación de un dron autonomo" }
+        { descripcion : "Mantenimiento preventivo de equipos" },
+        { descripcion : "Soporte técnico eficiente" }
       ]
     };
     this.workExperience.push(work1);
