@@ -1,0 +1,34 @@
+/* Estilos para el contenedor de habilidades */
+.skills-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Estilos para cada habilidad */
+.skill {
+    margin: 10px 0;
+}
+
+/* Estilo para el nombre de la habilidad */
+.skill-name {
+    display: block;
+    font-size: 1rem;
+    color: #e0e0e0; /* Texto claro */
+    margin-bottom: 5px;
+}
+
+/* Estilo para la barra de habilidad */
+.skill-bar {
+    width: 100%;
+    background-color: #333; /* Fondo de la barra */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Estilo para el progreso de la habilidad */
+.skill-progress {
+    height: 20px; /* Altura de la barra de progreso */
+    background-color: yellowgreen; /* Color de progreso */
+    border-radius: 5px 0 0 5px; /* Bordes redondeados a la izquierda */
+    transition: width 0.3s ease; /* Transición suave */
+}
