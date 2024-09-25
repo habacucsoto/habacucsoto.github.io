@@ -1,0 +1,24 @@
+/* Estilos para el contenedor de idiomas */
+.languages-container {
+    margin: 20px 0;
+}
+
+/* Estilo para cada idioma */
+.language {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre el nombre y el nivel */
+    padding: 10px 0;
+    border-bottom: 1px solid #444; /* Línea divisoria */
+}
+
+/* Estilo para el nombre del idioma */
+.language-name {
+    font-size: 1rem;
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilo para el nivel del idioma */
+.language-level {
+    font-size: 1rem;
+    color: #bb86fc; /* Color para el nivel */
+}
