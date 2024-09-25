@@ -1,0 +1,49 @@
+/* Estilo para el componente de educación */
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #181818; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilos para las celdas */
+td {
+    padding: 10px; /* Centrar contenido */
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background-color: #2c2c2c;
+}
+
+/* Estilos para las listas dentro de la tabla */
+ul {
+    list-style: none;
+    padding-left: 0;/* Centrar listas */
+}
+
+li {
+    margin: 5px 0;
+    color: #e0e0e0;
+}
+
+/* Estilo para el encabezado */
+h3 {
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar título */
+}
+
+/* Estilo para los títulos (fechas, grados, escuelas) */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Hover en filas */
+tr:hover {
+    background-color: #2c2c2c;
+}
