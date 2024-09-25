@@ -34,8 +34,7 @@ li {
 h3 {
     color: #e0e0e0;
     font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: center; /* Centrar título */
+    margin-bottom: 10px;/* Centrar título */
 }
 
 /* Estilo para los títulos (fechas, grados, escuelas) */
