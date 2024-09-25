@@ -12,24 +12,16 @@ export class EducationComponent {
   education : Array<any> = [];
   ngOnInit() : void {
     let education1 = {
-      fecha: "2018-2022",
+      fecha: "2022-Actualmente",
       ubicacion: "Ixtac, Ver.",
-      grado: "maestria",
-      escuela: "UV",
-      logros : [
-        { descripcion : "Construcción de un ERP en GCP" },
-        { descripcion : "Creación de un cluster en hadoop y spark" }
-      ]
+      grado: "Ingenieria de Software",
+      escuela: "UV"
     };
     let education2 = {
-      fecha: "2014-2018",
-      ubicacion: "Orizaba, Ver.",
-      grado: "llicenciatura",
-      escuela: "UV",
-      logros : [
-        { descripcion : "Construcción de un invernadero hidroponico" },
-        { descripcion : "Creación de un dron autonomo" }
-      ]
+      fecha: "2024",
+      ubicacion: "Córdoba, Ver.",
+      grado: "Bootcamp Ciencia de Datos",
+      escuela: "CodigoFacilito"
     };
     this.education.push(education1);
     this.education.push(education2);
