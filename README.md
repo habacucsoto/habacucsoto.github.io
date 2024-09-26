@@ -1,4 +1,4 @@
-# HOLA ESTOY EDITANDO EN RELEASE
+# HOLA ESTOY HACIENDO UPDATE
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 

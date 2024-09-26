@@ -1,0 +1,59 @@
+/* Estilo para el componente de experiencia laboral */
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #181818; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilos para las celdas */
+td {
+    padding: 10px;
+    text-align: left; /* Alinear a la izquierda */
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background-color: #2c2c2c;
+}
+
+/* Estilos para las listas dentro de la tabla */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #e0e0e0;
+}
+
+h3 {
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo para Logros */
+ul ul {
+    margin-left: 20px;
+}
+
+ul ul li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #bbbbbb;
+}
+
+/* Estilo para los títulos (fechas, puestos, empresas) */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Hover en logros */
+ul ul li:hover {
+    color: #bb86fc;
+}
