@@ -1,0 +1,19 @@
+
+.interests-container {
+    list-style-type: none; /* Quitar viñetas por defecto */
+    padding: 0; /* Sin padding */
+    margin: 20px 0; /* Margen para separación */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para cada interés */
+.interest-item {
+    font-size: 1rem; /* Tamaño de fuente */
+    color: #e0e0e0; /* Color de texto claro */
+    border-bottom: 1px solid #444; /* Línea divisoria */
+    background-color: #333; /* Fondo oscuro para destacar */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 5px;
+}
